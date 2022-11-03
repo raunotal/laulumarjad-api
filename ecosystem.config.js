@@ -13,7 +13,7 @@ module.exports = {
       ref: "origin/main",
       repo: "git@github.com:raunotal/laulumarjad-api.git",
       ssh_options: ["ForwardAgent=yes"],
-      path: "/data01/virt104534/laulumarjad-api",
+      path: "/data01/virt104534/deploy/laulumarjad-api",
     },
   },
 };
