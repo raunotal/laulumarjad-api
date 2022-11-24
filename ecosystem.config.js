@@ -8,6 +8,7 @@ module.exports = {
   // Deployment Configuration
   deploy: {
     production: {
+      key: "~/.ssh/github-raunotal.pub",
       user: "virt104534",
       host: ["laulumarjad.ee"],
       ref: "origin/main",
