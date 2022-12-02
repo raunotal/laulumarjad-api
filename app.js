@@ -5,7 +5,7 @@ const port = 3007;
 
 const server = http.createServer((req, res) => {
   if (req.url === "/redirect/shop") {
-    res.writeHead(302, { Location: "https://www.laulumarjad.ee/pood" });
+    res.writeHead(302, { Location: "https://www.laulumarjad.ee/" });
     return res.end();
   }
   res.statusCode = 200;
